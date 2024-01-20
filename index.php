@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ricky's Portfolio</title>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+        <div class="container">
+          <a class="navbar-brand" href="#header">PORTFOLIO</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#header">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#qualification">Qualification</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#project">My Project</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <div
+        data-bs-spy="scroll"
+        data-bs-target="#navbar-example3"
+        data-bs-smooth-scroll="true"
+        class="scrollspy-example-2"
+        tabindex="0"
+      >
+      <div id="header">
+        <img class="hero" src="assets/hero.jpg" alt="" />
+        <img
+          class="profile"
+          src="assets/profile(crop + b&w).jpg"
+          alt="No Profile"
+          title="Picture of me"
+        />
+        </div>
+
+        <div class="textHead">
+          <h1>HELLO <span>WORLD</span> I'm Ricky</h1>
+        </div>
+
+        <div class="textHead2">
+          <h2>Welcome to my Portfolio</h2>
+          <p>
+            Make yourself comfortable and feel free to find something
+            interesting about me
+          </p>
+        </div>
+
+        <div id="about">
+          <h2 class="headA">About Me</h2>
+          <div class="about-content">
+            <p data-aos="fade-right">
+            I am a dedicated Programmer with great curiosity of how things work. Something unknown equals something interesting I can adapt real quick on a team project. My priority is to make everyone clear about what i meant while discussing. I always make sure to finishing the tasks before the target time.
+            </p>
+            <img
+              class="about-img"
+              src="assets/about.jpg"
+              alt=""
+              data-aos="fade-left"
+            />
+          </div>
+        </div>
+
+        <div id="qualification">
+          <h2 class="headQ">Qualification</h2>
+          <div class="thisCard row row-cols-1 row-cols-md-3 g-4">
+            <div class="col" data-aos="zoom-in">
+              <div class="card">
+                <a
+                  href="assets/siswa_berprestasi.jpeg"
+                  data-fancybox="gallery"
+                  data-caption="Top 1 Student majoring in Software Engineering"
+                >
+                  <img
+                    class="mx-auto d-block"
+                    src="assets/siswa_berprestasi.jpeg"
+                  />
+                </a>
+                <div class="card-body">
+                  <p class="card-title">
+                  Top 1 Student majoring in Software Engineering
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col" data-aos="zoom-in">
+              <div class="card">
+                <a
+                  href="assets/cerdas-cermat C++.jpeg"
+                  data-fancybox="gallery"
+                  data-caption="National level Olympiad participant (ELECTRA 12)"
+                >
+                  <img
+                    class="mx-auto d-block"
+                    src="assets/cerdas-cermat C++.jpeg"
+                  />
+                </a>
+                <div class="card-body">
+                  <p class="card-title">
+                  National level Olympiad participant (ELECTRA 12)
+                  </p>
+                </div>
+              </div>
+            </div><div class="col" data-aos="zoom-in">
+              <div class="card">
+                <a
+                  href="assets/pembinaan.jpeg"
+                  data-fancybox="gallery"
+                  data-caption="1 month Bootcamp at UBIG Malang"
+                >
+                  <img
+                    class="mx-auto d-block"
+                    src="assets/pembinaan.jpeg"
+                  />
+                </a>
+                <div class="card-body">
+                  <p class="card-title">
+                  1 month Bootcamp at UBIG Malang
+                  </p>
+                </div>
+              </div>
+            </div><div class="col" data-aos="zoom-in">
+              <div class="card">
+                <a
+                  href="assets/software_provinsi.jpeg"
+                  data-fancybox="gallery"
+                  data-caption="Participant in the LKS IT Software Solutions"
+                >
+                  <img
+                    class="mx-auto d-block"
+                    src="assets/software_provinsi.jpeg"
+                  />
+                </a>
+                <div class="card-body">
+                  <p class="card-title">
+                  Participant in the LKS IT Software Solutions
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div id="project">
+          <h2>My Project</h2>
+          <div
+            class="card text-center"
+            data-aos="fade-up"
+            data-aos-duration="1000"
+          >
+            <div
+              class="card-body"
+              style="background-image: url(assets/hero.jpg)"
+            >
+              <h5 class="card-title">Project that i made</h5>
+              <p class="card-text">
+                My project is focused on backend and algorithm
+              </p>
+              <a href="project.php" class="btn btn-light"
+                >Check my project here</a
+              >
+            </div>
+            <div class="card-footer text-black">2022 - PRESENT</div>
+          </div>
+        </div>
+
+        <div id="contact">
+          <h2 class="headC">Contact</h2>
+          <br />
+          <hr />
+          <div class="card text-center">
+            <div class="card-header">
+              <img src="assets/logo-x.jpg" alt="" />
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">@Remiesa</h5>
+
+              <a
+                href="https://twitter.com/Ricky_Remie?t=xfjfwHfC26hWSe8mJaZmWw&s=09"
+                target="_blank"
+                class="btn btn-dark"
+                >Check here</a
+              >
+            </div>
+          </div>
+          <hr />
+        </div>
+      </div>
+      <div id="footer">Created by Ricky | © 2023</div>
+    </div>
+
+    <script src="js/script.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>

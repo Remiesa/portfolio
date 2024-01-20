@@ -1,0 +1,80 @@
+#button-back {
+  color: white;
+}
+
+body {
+  background-color: #000;
+  font-family: sans-serif;
+}
+
+.main2 a {
+  text-decoration: none;
+  font-size: larger;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 2vw;
+  color: #bcbcbc;
+  transition: 0.3s;
+}
+
+.main2 a:hover {
+  border-bottom: 1px solid white;
+}
+
+.main2 .header2 {
+  text-align: center;
+  margin-top: 10vh;
+}
+
+.main2 .header2 p {
+  margin-top: 2vh;
+}
+
+.main2 .project1 {
+  margin-top: 10vh;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.main2 .project1 video {
+  height: auto;
+  width: 80%;
+}
+
+.main2 .project1 h5 {
+  margin-top: 3vh;
+}
+
+.main2 .project1 p {
+  margin-top: 5vh;
+  text-align: justify;
+}
+
+.main2 .garis1 {
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.main2 .garis2 {
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+@media (max-width: 1366px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 62.5%;
+  }
+}
+
+@media (max-width: 450px) {
+  html {
+    font-size: 55%;
+  }
+}
