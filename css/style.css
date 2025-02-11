@@ -106,7 +106,7 @@ html {
 }
 
 .hero {
-    background: #f4f4f4;
+    background: #212529;
     background-image: url('img/hero-image.jpg'); 
     background-size: cover; 
     background-position: center; 
