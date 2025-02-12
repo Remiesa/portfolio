@@ -1,212 +1,476 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Ricky</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="bg-dark text-light">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background: black;">
-        <div class="container">
-            <a class="navbar-brand fw-semibold" href="/">PORTFOLIO <span style="color: #FF7F50;">.</span></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#projects">Projects</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#Qualification">Qualifications</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="#contact">Contact</a>
-                    </li>
-                </ul>
-            </div>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body class="bg-dark text-light">
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-dark"
+      style="background: black"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-semibold" href="/"
+          >PORTFOLIO <span style="color: #ff7f50">.</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#Qualification"
+                >Qualifications</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-light" href="#contact">Contact</a>
+            </li>
+          </ul>
         </div>
+      </div>
     </nav>
 
- 
     <section id="hero" class="hero">
-        <div class="wrapper">
-            <div class="wrapper-content">
-                <h1>I&nbsp;</h1>
-                <h1 class="typewrite text-info" data-period="2000" data-type='[ "am Programmer", "make Websites", "create Programs"]'>
-                      <span class="wrap"></span>
-                </h1>
-            </div>
+      <div class="wrapper">
+        <div class="wrapper-content">
+          <h1>I&nbsp;</h1>
+          <h1
+            class="typewrite text-info"
+            data-period="2000"
+            data-type='[ "am Programmer", "make Websites", "create Programs"]'
+          >
+            <span class="wrap"></span>
+          </h1>
         </div>
+      </div>
     </section>
 
     <section id="about" class="about layout">
-        <div class="container">
-            <h2 class="text-center">Call me <span style="color: #17a2b8;">Ricky</span></h2>
-            <h2 class="text-center">I<span style="color: #FF7F50;">'</span>m <span class="text-info">Fullstack</span> Website Developer</h2>
-        </div>
+      <div class="container">
+        <h2 class="text-center">
+          Call me <span style="color: #17a2b8">Ricky</span>
+        </h2>
+        <h2 class="text-center">
+          I<span style="color: #ff7f50">'</span>m
+          <span class="text-info">Fullstack</span> Website Developer
+        </h2>
+      </div>
     </section>
 
     <section id="projects" class="projects layout">
-        <div class="container">
-            <h2 class="head-text text-center">PROJECTS<span style="color: #FF7F50;">.</span></h2>
-            <div class="text-center mb-4">
-                <button class="btn btn-outline-info mx-2 custom-btn active mb-3" onclick="filterProjects('all', this)">All Projects</button>
-                <button class="btn btn-outline-info mx-2 custom-btn mb-3" onclick="filterProjects('website', this)">Related to Website</button>
-                <button class="btn btn-outline-info mx-2 custom-btn mb-3" onclick="filterProjects('other', this)">Other Projects</button>
-            </div>
-            <div id="project-list" class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-4 project-item" data-category="website">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/Screenshot (439).png" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h5>AMAZING RACE SAMOSIR <a href="https://sites.google.com/view/amazingraceinlandhybrid/home" class="text-info" target="_blank"><i class="fa fa-external-link"></i></a></h5>
-                            <p class="card-text">Website for Event using Google Site.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 project-item" data-category="website">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/Screenshot (440).png" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h5>JELAJAH SELINDU <a href="https://jelajahselindu.com/" class="text-info" target="_blank"><i class="fa fa-external-link"></i></a></h5>
-                            <p class="card-text">Website for Social Program using Wordpress.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 project-item" data-category="other">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/Screenshot (443).png" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h5>LIBRARY [APP] <a href="https://github.com/Remiesa/perpustakaan-ionic" class="text-info" target="_blank"><i class="fa fa-external-link"></i></a></h5>
-                            <p class="card-text">App with multiple user login using IONIC framework and SQL API from laravel.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-4 project-item" data-category="website">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/Screenshot (444).png" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h5>TASK LIST <a href="https://relist-delta.vercel.app/" class="text-info" target="_blank"><i class="fa fa-external-link"></i></a></h5>
-                            <p class="card-text">Website for To-Do List. You can download the mobile version <a href="https://drive.google.com/file/d/1xykuwFNh8JOIHd7Gjni1URGy_6krGBtt/view?usp=drive_link" target="_blank" style="color: #17a2b8;">here</a></p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 project-item" data-category="website">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/Screenshot (442).png" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h5>BAMBOO RACE <a href="https://sites.google.com/view/bambooracediropsantam" target="_blank" class="text-info"><i class="fa fa-external-link"></i></a></h5>
-                            <p class="card-text">Website for Event using Google Site.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 project-item" data-category="website">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/Screenshot (441).png" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h5>MULTISNACKVERSE <a href="https://remiesa.github.io/Multisnackverse/" class="text-info" target="_blank"><i class="fa fa-external-link"></i></a></h5>
-                            <p class="card-text">Template Website using HTML, CSS, and Javascript.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-md-4 project-item" data-category="other">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/Screenshot (445).png" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h5>ALIEN KITING [GAME] <a href="https://github.com/Remiesa/AppGameKit_2.0-alienKiting" class="text-info" target="_blank"><i class="fa fa-external-link"></i></a></h5>
-                            <p class="card-text">Simple game of space shooter using AGK.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="text-center mt-4">
-                <div class="d-inline-block">
-                    <button id="loadMoreBtn" class="btn btn-outline-info custom-btn" onclick="loadMoreProjects()">Load More</button>
-                </div>
-            </div>
+      <div class="container">
+        <h2 class="head-text text-center">
+          PROJECTS<span style="color: #ff7f50">.</span>
+        </h2>
+        <div class="text-center mb-4">
+          <button
+            class="btn btn-outline-info mx-2 custom-btn active mb-3"
+            onclick="filterProjects('all', this)"
+          >
+            All Projects
+          </button>
+          <button
+            class="btn btn-outline-info mx-2 custom-btn mb-3"
+            onclick="filterProjects('website', this)"
+          >
+            Related to Website
+          </button>
+          <button
+            class="btn btn-outline-info mx-2 custom-btn mb-3"
+            onclick="filterProjects('other', this)"
+          >
+            Other Projects
+          </button>
         </div>
+        <div id="project-list" class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col-md-4 project-item" data-category="website">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/Screenshot (446).png"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5>
+                  Roda Link - Cleopatra
+                  <a
+                    href="https://roda-link-cleopatra.vercel.app/"
+                    class="text-info"
+                    target="_blank"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h5>
+                <p class="card-text">Website for Event.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 project-item" data-category="website">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/Screenshot (447).png"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5>
+                  AMAZING RACE SAMOSIR
+                  <a
+                    href="https://sites.google.com/view/amazingraceinlandhybrid/home"
+                    class="text-info"
+                    target="_blank"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h5>
+                <p class="card-text">Website for Event.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 project-item" data-category="website">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/Screenshot (448).png"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5>
+                  JELAJAH SELINDU
+                  <a
+                    href="https://jelajahselindu.com/"
+                    class="text-info"
+                    target="_blank"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h5>
+                <p class="card-text">Website for Social Program.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 project-item" data-category="other">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/Screenshot (443).png"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5>
+                  LIBRARY [APP]
+                  <a
+                    href="https://github.com/Remiesa/perpustakaan-ionic"
+                    class="text-info"
+                    target="_blank"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h5>
+                <p class="card-text">
+                  App with multiple user login using IONIC framework and SQL API
+                  from laravel.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 project-item" data-category="website">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/Screenshot (449).png"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5>
+                  TASK LIST
+                  <a
+                    href="https://relist-delta.vercel.app/"
+                    class="text-info"
+                    target="_blank"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h5>
+                <p class="card-text">
+                  Website for To-Do List. You can download the mobile version
+                  <a
+                    href="https://drive.google.com/file/d/1xykuwFNh8JOIHd7Gjni1URGy_6krGBtt/view?usp=drive_link"
+                    target="_blank"
+                    style="color: #17a2b8"
+                    >here</a
+                  >
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 project-item" data-category="website">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/Screenshot (450).png"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5>
+                  BAMBOO RACE
+                  <a
+                    href="https://sites.google.com/view/bambooracediropsantam"
+                    target="_blank"
+                    class="text-info"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h5>
+                <p class="card-text">Website for Event.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 project-item" data-category="website">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/Screenshot (451).png"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5>
+                  MULTISNACKVERSE
+                  <a
+                    href="https://remiesa.github.io/Multisnackverse/"
+                    class="text-info"
+                    target="_blank"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h5>
+                <p class="card-text">Responsive Website for Template.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 project-item" data-category="other">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/Screenshot (445).png"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h5>
+                  ALIEN KITING [GAME]
+                  <a
+                    href="https://github.com/Remiesa/AppGameKit_2.0-alienKiting"
+                    class="text-info"
+                    target="_blank"
+                    ><i class="fa fa-external-link"></i
+                  ></a>
+                </h5>
+                <p class="card-text">Simple game of space shooter.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center mt-4">
+          <div class="d-inline-block">
+            <button
+              id="loadMoreBtn"
+              class="btn btn-outline-info custom-btn"
+              onclick="loadMoreProjects()"
+            >
+              Load More
+            </button>
+          </div>
+        </div>
+      </div>
     </section>
 
     <section id="Qualification" class="Qualification layout">
-        <div class="container">
-            <h2 class="head-text text-center">QUALIFICATIONS<span style="color: #FF7F50;">.</span></h2>
-            <div class="row row-cols-1 row-cols-md-2 g-4">
-                <div class="col-md-3">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/siswa_berprestasi.jpeg" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h6 class="card-text text-center">Top 1 Student majoring in Software Engineering</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/cerdas-cermat.jpeg" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h6 class="card-text text-center">National level Olympiad</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/pembinaan.jpeg" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h6 class="card-text text-center">1 month Bootcamp at UBIG Malang</h6>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-3">
-                    <div class="card h-100 bg-transparent border text-light border-white">
-                        <img src="img/software_provinsi.jpeg" class="card-img-top clickable-image" alt="..." style="height: 200px; object-fit: cover;">
-                        <div class="card-body">
-                            <h6 class="card-text text-center">Provincial level IT software competition</h6>
-                        </div>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="head-text text-center">
+          QUALIFICATIONS<span style="color: #ff7f50">.</span>
+        </h2>
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col-md-3">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/siswa_berprestasi.jpeg"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h6 class="card-text text-center">
+                  Top 1 Student majoring in Software Engineering
+                </h6>
+              </div>
             </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/cerdas-cermat.jpeg"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h6 class="card-text text-center">National level Olympiad</h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/pembinaan.jpeg"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h6 class="card-text text-center">
+                  1 month Bootcamp at UBIG Malang
+                </h6>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div
+              class="card h-100 bg-transparent border text-light border-white"
+            >
+              <img
+                src="img/software_provinsi.jpeg"
+                class="card-img-top clickable-image"
+                alt="..."
+                style="height: 200px; object-fit: cover"
+              />
+              <div class="card-body">
+                <h6 class="card-text text-center">
+                  Provincial level IT software competition
+                </h6>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </section>
 
     <div id="imageModal" class="modal">
-        <span class="close">&times;</span>
-        <img class="modal-content" id="fullImage" style="display: block; margin: auto; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+      <span class="close">&times;</span>
+      <img
+        class="modal-content"
+        id="fullImage"
+        style="
+          display: block;
+          margin: auto;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        "
+      />
     </div>
 
     <section id="contact" class="contact layout">
-        <div class="container">
-            <h2 class="head-text text-center">CONTACT<span style="color: #FF7F50;">.</span></h2>
-            <hr>
-            <div class="d-flex justify-content-center">
-                <div class="card text-center text-light" style="width: 18rem; background: transparent;">
-                    <img src="img/icon-gmail.png" class="card-img-top mx-auto" alt="..." style="width: 100px; height: 100px; object-fit: cover;">
-                    <div class="card-body">
-                        <a href="mailto:Rickysa2005@gmail.com" class="btn btn-outline-info custom-btn">Email Me</a>
-                    </div>
-                </div>
+      <div class="container">
+        <h2 class="head-text text-center">
+          CONTACT<span style="color: #ff7f50">.</span>
+        </h2>
+        <hr />
+        <div class="d-flex justify-content-center">
+          <div
+            class="card text-center text-light"
+            style="width: 18rem; background: transparent"
+          >
+            <img
+              src="img/icon-gmail.png"
+              class="card-img-top mx-auto"
+              alt="..."
+              style="width: 100px; height: 100px; object-fit: cover"
+            />
+            <div class="card-body">
+              <a
+                href="mailto:Rickysa2005@gmail.com"
+                class="btn btn-outline-info custom-btn"
+                >Email Me</a
+              >
             </div>
-            <hr>
+          </div>
         </div>
+        <hr />
+      </div>
     </section>
 
-    <section id="footer" class="footer" style="margin-top: 90px;">
-        <div class="container">
-            <div class="text-center">
-                <p>&copy; 2025 Portfolio <span style="color: #FF7F50;">|</span> Ricky</p>
-            </div>
+    <section id="footer" class="footer" style="margin-top: 90px">
+      <div class="container">
+        <div class="text-center">
+          <p>
+            &copy; 2025 Portfolio <span style="color: #ff7f50">|</span> Ricky
+          </p>
         </div>
+      </div>
     </section>
 
     <script src="js/script.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-</body>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
